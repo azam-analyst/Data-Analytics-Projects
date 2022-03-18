@@ -101,7 +101,7 @@ SELECT DISTINCT Season
 FROM Matches;
 
 
---5. SPLITTING UP venue field to fetch the Venue Name and Country in different Columns
+--5. SPLITTING UP venue field to fetch the Venue Name and Location in different Columns
 
 
 SELECT venue,COALESCE(venue,'N/A')
