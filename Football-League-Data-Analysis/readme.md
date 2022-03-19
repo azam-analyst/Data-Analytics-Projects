@@ -23,7 +23,7 @@ Below the screenshots of SQL output table is presented to showcase what the outc
 
 <img width="310" alt="league to season and leaguename" src="https://user-images.githubusercontent.com/96620728/159095779-06e01914-7057-4280-a559-2dd46938ea0b.png">
 
-**SPLITTING UP venue field to fetch the Venue Name and Country in different Columns**
+**SPLITTING UP venue field to fetch the Venue Name and Location in different Columns**
 
 <img width="400" alt="venue to stadium and location" src="https://user-images.githubusercontent.com/96620728/159095833-e3ca7cb3-ea7b-42d3-9be9-24ab10695a93.png">
 
