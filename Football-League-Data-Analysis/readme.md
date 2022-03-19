@@ -1,4 +1,5 @@
-*************WELCOME To the Top 6 European Football League Data Analysis Project*************
+# WELCOME To the Top 6 European Football League Data Analysis Project
+
 
 This  is a data analytics project done on a dataset collected from Kaggle.com containing European football League records of 6 major european leagues.The total number of records were 25,200. The dataset contains records from English Premier league, French League,Spanish La Liga,Italian Serie A,German Bundesliga and Eridivisie from 2001 to 2021. For the purpose of the data visulization, data records used was for Year 2018 to 2021.
 
@@ -10,27 +11,27 @@ Stage 2: The file was imported in Microsoft SQL Server management studio for cle
 
 Stage 3: The cleaned dataset were imported in Tableau for visualization and making interactive dashboard.
 
-##SQL Output Tables after Executing SQL queries##
+**SQL Output Tables after Executing SQL queries**
 
 Below the screenshots of SQL output table is presented to showcase what the outcome of the organised data table acheived through sql queries with the purpose of data cleaning. 
 
---SPLITTING UP date field to get MatchDay and MatchDate in seperate field
+**SPLITTING UP date field to get MatchDay and MatchDate in seperate field**
 
 <img width="205" alt="1" src="https://user-images.githubusercontent.com/96620728/159095733-717d08c8-cc41-4a4a-9516-f8b1f1ef339b.png">
 
---SPLITTING UP league field into Season and LeagueName
+**SPLITTING UP league field into Season and LeagueName**
 
 <img width="310" alt="league to season and leaguename" src="https://user-images.githubusercontent.com/96620728/159095779-06e01914-7057-4280-a559-2dd46938ea0b.png">
 
---SPLITTING UP venue field to fetch the Venue Name and Country in different Columns
+**SPLITTING UP venue field to fetch the Venue Name and Country in different Columns**
 
 <img width="400" alt="venue to stadium and location" src="https://user-images.githubusercontent.com/96620728/159095833-e3ca7cb3-ea7b-42d3-9be9-24ab10695a93.png">
 
---SPLITTING UP HomeShotsSummary and AwayShotsSummary into TotalShots and ShotsonTarget
+**SPLITTING UP HomeShotsSummary and AwayShotsSummary into TotalShots and ShotsonTarget**
 
 <img width="475" alt="shots" src="https://user-images.githubusercontent.com/96620728/159095902-43b6abbd-1448-4ad9-93cd-e56773460d94.png">
 
-##Tableau Visualization##
+**Tableau Visualization**
 
 After the SQl cleaning process the cleaned dataset wassaved as Csv file. The saved football dataset along with three other dataset named goal_leaders,assist_leaders and team_discipline were imported in tableau for visulaization to draw out findings from the dataset.
 
@@ -43,7 +44,8 @@ https://public.tableau.com/app/profile/azam.analyst
 
 <img width="500" alt="European League data analysis" src="https://user-images.githubusercontent.com/96620728/159124223-2d4e4065-ede4-4e66-99e2-fc992b92e94e.png">
 
-##Interesting findings:
+
+**Interesting findings**
 
 I have done this project not only to enhance my SQL and tableau skills but also as a huge footbal fan I had a real interest in preparing this data and getting a nice visualization out of the data. From the tableau analysis it was found that-
 
@@ -55,7 +57,7 @@ The highest amount of home goals was conceded by Sassoulo of Italian Serie A lea
 
 Besides From the visualization, you can pick up your faourite and see their home and away performances from 2018-2021.
 
-##Learning Outcomes:
+**Learning Outcomes:**
 
 1. Major SQL string functions and they can be used effectively in data cleaning process(e.g CHARINDEX,SUBSTRING,LEN,LEFT;RIGT;TRIM).
 
