@@ -1,4 +1,4 @@
-Welcome to the SQL-Data-Cleaning-NashvilleHousing wiki!
+# Welcome to the SQL Data Cleaning project on Nashville Housing Society dataset.
 
 This is a Data cleaning Project in SQL Server Management Studio. The goal of this project is to showcase my SQL skills to do data cleaning for raw datasets which can be manipulated to bring about more organization within the dataset to make the analysis process more efficient.
 
