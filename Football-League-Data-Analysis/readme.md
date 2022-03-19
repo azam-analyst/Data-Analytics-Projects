@@ -8,7 +8,7 @@ Stage 2: The file was imported in Microsoft SQL Server management studio for cle
 
 Stage 3: The cleaned dataset were imported in Tableau for visualization and making interactive dashboard.
 
-##SQL Output Tables after in cleanin process after Executing SQL queries##
+##SQL Output Tables after Executing SQL queries##
 
 Below the screenshots of SQL output table is presented to showcase what the outcome of the organised data table acheived through sql queries with the purpose of data cleaning. 
 
@@ -28,8 +28,36 @@ Below the screenshots of SQL output table is presented to showcase what the outc
 
 <img width="475" alt="shots" src="https://user-images.githubusercontent.com/96620728/159095902-43b6abbd-1448-4ad9-93cd-e56773460d94.png">
 
+##Tableau Visualization##
 
+After the SQl cleaning process the cleaned dataset wassaved as Csv file. The saved football dataset along with three other dataset named goal_leaders,assist_leaders and team_discipline were imported in tableau for visulaization to draw out findings from the dataset.
 
+From the cleaned footbll dataset four mesures(Sum of Home Score,Sum of away score,Average home ball possesion and Average away ball possesion ) and two dimensions(Home team and away team) were used for visualization where each team can be selectd from filter to see their total number of goals scored against top 5 teams ranked by number of goals scored while playing at home ground or playing as an away team.Along with that he same filter also shows records of avergae ball possesion against top 5 teams ranked by the average value while playing at home ground or away for the selected team from the filter. For the visuzlization most recent years(2018-2021) records were filtered from the Year value and visualized in the final dashboard. 
 
+From the goal_leaders,assist_leaders and team discipline the dimesions used was Player name and team name and the mesures were Sum of goal scored,sum of assists ,sum of yellow cards and sum of red cards) to find out Top 10 goal scorers,top 10 assist makers and top 5 teams to get most yellow and red cards. The dynamic filters used are League Name and Year which can be selected to see respective values for each year in different leagues. To get the Top 5 and Top 10 values from the measures Tableau RANK function was used with each measures used for analysis.
 
+Here is the Tableau dashboard which was prepared in the analysis which can be also be acessed from my tableau public page:
+https://public.tableau.com/app/profile/azam.analyst
+
+<img width="500" alt="European League data analysis" src="https://user-images.githubusercontent.com/96620728/159124223-2d4e4065-ede4-4e66-99e2-fc992b92e94e.png">
+
+##Interesting findings:
+
+I have done this project not only to enhance my SQL and tableau skills but also as a huge footbal fan I had a real interest in preparing this data and getting a nice visualization out of the data. From the tableau analysis it was found that-
+
+Among the top 5 teams with count of yellow and red cards all of them was in Spanish La Liga over the years(2018-2021) and Getafe had the highest amount of yellow and red cards,followed by real betis and atheletico madrid.
+
+The most amount of goals conceded while playing away durig this periods was by Fortuna Sittard of Netherlands.
+
+The highest amount of home goals was conceded by Sassoulo of Italian Serie A league.
+
+Besides From the visualization, you can pick up your faourite and see their home and away performances from 2018-2021.
+
+##Learning Outcomes:
+
+1. Major SQL string functions usage in queries in data cleaning procedures to produce more organised and cleaned dataset.
+
+2. se of SQL CTE and Row_numbr function with Window function to remove duplicates which is avery important SQL technique for cleaning process.
+
+3. mporting dataset to tableau and making analysis with different charts, Importing additional data tables,creating calcualted fields,Rank Function by mesure values,using format tools for dashboards and layout, applying dynamic filters in dashboard, Organising dashboard design and choosing desired color format for to make dashboard meaningful and appealing.
 
