@@ -1,6 +1,8 @@
 *************WELCOME To the Top 6 European Football League Data Analysis Project*************
 
-This  is a data analytics project done on a dataset collected from Kaggle.com containing European football League records of 6 major european leagues.The total number of records were 25,200. The dataset contains records from English Premier league, French League,Spanish La Liga,Italian Serie A,German Bundesliga and Eridivisie from 2001 to 2021.The project has been done in three stages. 
+This  is a data analytics project done on a dataset collected from Kaggle.com containing European football League records of 6 major european leagues.The total number of records were 25,200. The dataset contains records from English Premier league, French League,Spanish La Liga,Italian Serie A,German Bundesliga and Eridivisie from 2001 to 2021. For the purpose of the data visulization, data records used was for Year 2018 to 2021.
+
+The project has been done in three stages. 
 
 Stage 1: The file was opened in excel for general data overview of the dataset. Then the unnecessary columns which I was not willing to take into analysis part was deleted.
 
