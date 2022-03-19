@@ -57,9 +57,11 @@ Besides From the visualization, you can pick up your faourite and see their home
 
 ##Learning Outcomes:
 
-1. Major SQL string functions usage in queries in data cleaning procedures to produce more organised and cleaned dataset.
+1. Major SQL string functions and they can be used effectively in data cleaning process(e.g CHARINDEX,SUBSTRING,LEN,LEFT;RIGT;TRIM).
 
-2. se of SQL CTE and Row_numbr function with Window function to remove duplicates which is avery important SQL technique for cleaning process.
+2. Use of SQL CTE and Row_NUMBER function with Window function to remove duplicates which is a very important SQL technique for cleaning process.
 
-3. mporting dataset to tableau and making analysis with different charts, Importing additional data tables,creating calcualted fields,Rank Function by mesure values,using format tools for dashboards and layout, applying dynamic filters in dashboard, Organising dashboard design and choosing desired color format for to make dashboard meaningful and appealing.
+3. Importing dataset to tableau and making analysis with different charts, Importing additional data tables from Edit data source,creating calcualted fields,Rank Function by measure values,using format tools for dashboards and layout, applying dynamic filters in dashboard, Organising dashboard design and choosing desired color format for to make dashboard meaningful and appealing.
+
+*********************************************END*************************************************************
 
