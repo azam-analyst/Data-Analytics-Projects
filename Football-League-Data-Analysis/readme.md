@@ -63,5 +63,5 @@ Besides From the visualization, you can pick up your faourite and see their home
 
 3. Importing dataset to tableau and making analysis with different charts, Importing additional data tables from Edit data source,creating calcualted fields,Rank Function by measure values,using format tools for dashboards and layout, applying dynamic filters in dashboard, Organising dashboard design and choosing desired color format for to make dashboard meaningful and appealing.
 
-*********************************************END*************************************************************
+END
 
