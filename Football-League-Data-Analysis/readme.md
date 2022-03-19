@@ -6,7 +6,7 @@ The project has been done in three stages.
 
 Stage 1: The file was opened in excel for general data overview of the dataset. Then the unnecessary columns which I was not willing to take into analysis part was deleted.
 
-Stage 2: The file was imported in Microsoft SQL Server management studio for cleaning procedures with SQL queries. After the process the cleaned dataset was saved to a new file.
+Stage 2: The file was imported in Microsoft SQL Server management studio for cleaning procedures with SQL queries. After the process the cleaned dataset was saved to a new file. The whole SQL queries in the cleaning procedure is uploaded in the file section.
 
 Stage 3: The cleaned dataset were imported in Tableau for visualization and making interactive dashboard.
 
