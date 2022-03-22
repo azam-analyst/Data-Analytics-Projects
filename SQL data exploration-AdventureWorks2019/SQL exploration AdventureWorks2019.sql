@@ -64,7 +64,7 @@ SELECT
 FROM Purchasing.ProductVendor as pv
 JOIN Purchasing.Vendor as v on pv.businessEntityID=v.BusinessEntityID
 WHERE StandardPrice IN
-					(SELECT MAX(StandardPrice)FROM Purchasing.ProductVendor) 
+		(SELECT MAX(StandardPrice)FROM Purchasing.ProductVendor) 
 
 
 --2) Find out the vacation hours and sickleave hours of the employees who works only in the evening shift
@@ -186,8 +186,7 @@ ORDER BY poh.TotalDue
 
 SELECT JobTitle,BirthDate,Gender 
 FROM	HumanResources.Employee
-WHERE VacationHours < (SELECT VacationHours 
-						FROM HumanResources.Employee WHERE BusinessEntityID=263)
+WHERE VacationHours < (SELECT VacationHours FROM HumanResources.Employee WHERE BusinessEntityID=263)
 
 
 --2) Findout the Gender,vacation Hours and Sickleave Hours of the employees whose Job Title id same as the employee whose 
@@ -225,10 +224,9 @@ SELECT
 FROM
 	HumanResources.Employee
 WHERE 
-	VacationHours=
-			(SELECT MAX(VacationHours)
-			FROM HumanResources.Employee
-			WHERE VacationHours <(SELECT MAX(VacationHours) FROM HumanResources.Employee));
+	VacationHours=(SELECT MAX(VacationHours)
+					FROM HumanResources.Employee
+					WHERE VacationHours <(SELECT MAX(VacationHours) FROM HumanResources.Employee));
 
 --5) FInd out the products which have been sold more units than the average unit sold by all the other Products. Find ProductID and 
 --Total Sales Quantity.
@@ -256,10 +254,6 @@ SELECT
 				END
 	) as Remarks
 FROM Production.Product
-
---SQL Subquery in UPDATE Statement
---Increase the Order Quantity of all product by 20%  in PurchaseOrderDetail Table,consider only the products of those 
---the inventory quantity is less than 300 
 
 
 
@@ -316,7 +310,7 @@ ORDER BY sp.ProductID ;
 
 
 
-/*						SQL Window Function      */
+/*		SQL Window Function      */
 
 
 --1) SUM Window Function
