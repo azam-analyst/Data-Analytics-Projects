@@ -42,11 +42,10 @@ From the goal_leaders,assist_leaders and team discipline the dimesions used was 
 Here is the Tableau dashboard which was prepared in the analysis which can be also be acessed from my tableau public page:
 https://public.tableau.com/app/profile/azam.analyst
 
-<img width="500" alt="European League data analysis" src="https://user-images.githubusercontent.com/96620728/160712992-10eec927-931a-43f8-ab1f-40fa4843f989.png">
+![Dashboard 1 (1)](https://user-images.githubusercontent.com/96620728/160713256-d09053bd-ce54-4bb5-9eb1-1766e7a3d2a2.png)
 
 
-
-**Interesting findings:**
+**Findings:**
 
 I have done this project not only to enhance my SQL and tableau skills but also as a huge footbal fan I had a real interest in preparing this data and getting a nice visualization out of the data. From the tableau analysis it was found that-
 
