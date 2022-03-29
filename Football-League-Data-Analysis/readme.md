@@ -42,7 +42,8 @@ From the goal_leaders,assist_leaders and team discipline the dimesions used was 
 Here is the Tableau dashboard which was prepared in the analysis which can be also be acessed from my tableau public page:
 https://public.tableau.com/app/profile/azam.analyst
 
-<img width="500" alt="European League data analysis" src="https://user-images.githubusercontent.com/96620728/159124223-2d4e4065-ede4-4e66-99e2-fc992b92e94e.png">
+<img width="500" alt="European League data analysis" src="https://user-images.githubusercontent.com/96620728/160712992-10eec927-931a-43f8-ab1f-40fa4843f989.png">
+
 
 
 **Interesting findings:**
