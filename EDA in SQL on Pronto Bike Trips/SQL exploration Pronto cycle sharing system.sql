@@ -134,9 +134,9 @@ order by NumberOfRides desc
 1.	Average trip duration was 1202.61 seconds or 20 minutes.
 2.	Station with highest start location : Pier 69 / Alaskan Way & Clay St(Number of rides started= 11,274).
 3.	From the percentile calculation:
-	25% of the total trips had the duration of 391.265 seconds, 
-	50% of the total trips had the duration  of 633.235 seconds,
-	75 % of the total trips had the duration of 1145.015 seconds 
+	25% of the trip duration lied below the value of 391.265 seconds, 
+	50% of the trip duration lied below the value of 633.235 seconds,
+	75 % of the trip duration lied below the value of 1145.015 seconds 
 4.	From the histogram: Most trips were taken between 2pm and 6pm with total number of trips of 67,335
 5.	Most number of rides occured on Thursday(36,122) and Friday(35,128) with the lowest on Sunday(27,401)
 6.	Highest number of rides were taken by male riders at 112,940 times.
